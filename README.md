@@ -1,6 +1,6 @@
 # object_detection
 
-![Clean and Jerk](https://github.com/Ortgies/object_detection/blob/main/graphics/video_3_f%20.gif)
+![Clean and Jerk](https://github.com/Ortgies/object_detection/blob/main/graphics/video_1_f.gif)
 
 
 # Data collection
@@ -14,3 +14,18 @@ I used the custom object detection algorithm from ImageAi to train a model. <br>
 Since the current version imageAi requires older CUDA drivers that do not support my graphics card, the training was done in Google Colab.
 
 # Results
+
+Clean and Jerk <br>
+<img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_3_f%20.gif" width="480" height="270"/> <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/3_height.png" width="400" height="270"/> 
+
+Clean and Jerk <br>
+<img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_4_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/4_height.png" width="400" height="270"/> 
+
+Clean and Jerk fail <br>
+<img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_5_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/5_height.png" width="400" height="270"/> 
+
+Snatch <br>
+<img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_6_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/6_height.png" width="400" height="270"/> 
+
+Snatch fail <br>
+<img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_7_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/7_height.png" width="400" height="270"/> 
