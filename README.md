@@ -14,7 +14,7 @@ I used the custom object detection algorithm from ImageAi to train a model. <br>
 Since the current version imageAi requires older CUDA drivers that do not support my graphics card, the training was done in Google Colab.
 
 # Results
-Detection of the bar works quite well, even on untrained videos. <br>
+Detection of the bar works quite well, considering that training was done with just 200 pictures.<br>
 There are some frames where the model has difficulty following the bar, but with some interpolation the bar path can still be plotted on a graph. <br>
 The following are a few example videos with the corresponding bar baths. Note: In the videos the bar position starts at 225mm, half the radius of an olympic plate. <br>
 
