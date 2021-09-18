@@ -14,18 +14,21 @@ I used the custom object detection algorithm from ImageAi to train a model. <br>
 Since the current version imageAi requires older CUDA drivers that do not support my graphics card, the training was done in Google Colab.
 
 # Results
+Detection of the bar works quite well, even on untrained videos. <br>
+There are some frames where the model has difficulty following the bar, but with some interpolation the bar path can still be plotted on a graph. <br>
+The following are a few example videos with the corresponding bar baths. Note: In the videos the bar position starts at 225mm, half the radius of an olympic plate. <br>
 
-Clean and Jerk <br>
+**Clean and Jerk 1**<br>
 <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_3_f%20.gif" width="480" height="270"/> <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/3_height.png" width="350" height="270"/> 
 
-Clean and Jerk <br>
+**Clean and Jerk 2**<br>
 <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_4_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/4_height.png" width="350" height="270"/> 
 
-Clean and Jerk fail <br>
+**Clean and Jerk fail** <br>
 <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_5_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/5_height.png" width="350" height="270"/> 
 
-Snatch <br>
+**Snatch** <br>
 <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_6_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/6_height.png" width="350" height="270"/> 
 
-Snatch fail <br>
+**Snatch fail** <br>
 <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_7_f.gif" width="480" height="270"/><img src="https://github.com/Ortgies/object_detection/blob/main/graphics/7_height.png" width="350" height="270"/> 
