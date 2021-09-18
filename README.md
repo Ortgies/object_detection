@@ -9,7 +9,7 @@ I might continue this project by training an algorithm to detect the type of lif
 # Data collection
 I retrieved three videos of olympic weight lifting from Youtube. <br>
 The first two were used to generate training images. I took one frame each second and used labelIMG to generate bounding boxes for the bar. These were saved in XML files based on the Pascal VOC format. <br>
-The third video was only used to test the detection model.
+The third video was only used to validate the detection model.
 
 # Model training
 I used the custom object detection algorithm from ImageAi to train a model. <br>
@@ -20,6 +20,8 @@ Since the current version imageAi requires older CUDA drivers that do not suppor
 Detection of the bar works quite well, considering that training was done with just 200 pictures.<br>
 There are some frames where the model has difficulty following the bar, but with some interpolation the bar path can still be plotted on a graph. <br>
 The following are a few example videos with the corresponding bar baths. Note: In the videos the bar position starts at 225mm, half the radius of an olympic plate. <br>
+<br>
+The following footage is exclusively from the validation video.
 
 **Clean and Jerk 1**<br>
 <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/video_3_f%20.gif" width="480" height="270"/> <img src="https://github.com/Ortgies/object_detection/blob/main/graphics/3_height.png" width="350" height="270"/> 
