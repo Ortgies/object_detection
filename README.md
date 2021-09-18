@@ -2,8 +2,8 @@
 
 ![Clean and Jerk](https://github.com/Ortgies/object_detection/blob/main/graphics/video_1_f.gif)
 <br>
-In this project, I am trying out object recognition. <br>
-Using videos of olympic weightlifting, I train a detection model to detect the bar and use this to calculate and plot the bar path. <br>
+In this project, I am trying out object recognition in videos. <br>
+Using footage of olympic weightlifting, I train a machine learning model to detect the bar and use this to calculate and plot the bar path. <br>
 I might continue this project by training an algorithm to detect the type of lift (Clean and Jerk or Snatch) or to predict the chance of failure based on the bar path, speed and acceleration. <br>
 
 # Data collection
